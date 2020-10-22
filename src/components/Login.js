@@ -22,7 +22,7 @@ export default class Login extends Component {
       headers: { "Content-type": "application/json" },
       body: JSON.stringify(LogIn),
     };
-    console.log(options);
+    
 
     fetch("https://studiofy-django.herokuapp.com/token-auth/", options)
       .then((r) => r.json())
