@@ -1,0 +1,17 @@
+/* .recordDiv {
+    background-color: #291d1d;
+}
+* {
+    margin: 0;
+} */
+* {
+text-align: center;
+}
+.reactPlayer {
+    display: block;
+    margin: auto;
+}
+.Input {
+    width: 40%;
+    margin: 0.5%;
+}

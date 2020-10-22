@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+.App {
+  text-align: center;
+}
+.compH1 {
+  color: firebrick;
+} 
+.appBody {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Krona One', sans-serif; */
+  background-color:#D6CB9D;
+}
+.instructions {
+  font-weight: 600;
+}
