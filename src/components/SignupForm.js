@@ -24,7 +24,7 @@ export default class SignupForm extends Component {
         body: JSON.stringify(userData),
       };
 
-      fetch("/core/users/", options)
+      fetch("https://studiofy-django.herokuapp.com/core/users/", options)
         .then((r) => r.json())
         .then((data) => {
           console.log(data);

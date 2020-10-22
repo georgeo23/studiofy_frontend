@@ -16,7 +16,7 @@ export const getUserData = () => {
                     Authorization: `JWT ${localStorage.getItem("token")}`,
                 },
             }
-            const resp = await fetch('/core/current_user/', options)
+            const resp = await fetch('https://studiofy-django.herokuapp.com/core/current_user/', options)
             const userData = await resp.json();
             dispatch(loadUserData(userData))
         } catch (err) {
@@ -34,7 +34,7 @@ export const getCovers = () => {
                     Authorization: `JWT ${localStorage.getItem("token")}`,
                 },
             }
-            const resp = await fetch('/core/covers/', options)
+            const resp = await fetch('https://studiofy-django.herokuapp.com/core/covers/', options)
             const coverData = await resp.json();
             dispatch(loadCovers(coverData))
         } catch (err) {

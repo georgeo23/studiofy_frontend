@@ -57,7 +57,7 @@ class Submit extends React.Component {
         },
         body: JSON.stringify(coverData),
       };
-      fetch("/core/covers/", options)
+      fetch("https://studiofy-django.herokuapp.com/core/covers/", options)
         .then((r) => r.json())
         .then((data) => console.log(data));
       if (window.confirm('Your cover has been saved!')) {

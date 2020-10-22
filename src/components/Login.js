@@ -24,7 +24,7 @@ export default class Login extends Component {
     };
     console.log(options);
 
-    fetch("/token-auth/", options)
+    fetch("https://studiofy-django.herokuapp.com/token-auth/", options)
       .then((r) => r.json())
       .then((data) => {
         if (
