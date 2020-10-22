@@ -43,6 +43,7 @@ export default class Login extends Component {
   render() {
     return (
       <div className="wrapper">
+        <h1>Studiofy - The Music Cover app!</h1>
         <div className="loginPageContainer">
           <h3>Login</h3>
           <div className="loginFormContainer">

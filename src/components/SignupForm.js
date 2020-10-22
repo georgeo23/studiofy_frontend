@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import "../styles/Register.css";
 
 export default class SignupForm extends Component {
   state = { username: "", email: "", password: "", passwordTwo: "" };
@@ -47,11 +48,11 @@ export default class SignupForm extends Component {
     return (
       <>
         <div className="wrapper">
-       
-         
-        
+        <h1>Sign up to Studiofy</h1>
+
           <div className="registrationForm">
-            <h3>Register</h3>
+          
+            <h3>Register your details</h3>
             <form onSubmit={this.handleFormSubmit}>
               <input
                 className="formInput"
