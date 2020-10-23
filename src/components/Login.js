@@ -72,7 +72,7 @@ export default class Login extends Component {
                 <input type="submit" value="Login" className="loginButton" />
                 <div className="callToAction">
                   <button className="loginButton">
-                    <a href="/register">Register</a>
+                    <a className="regButton"href="/register">Register</a>
                   </button>
                 </div>
               </span>

@@ -7,7 +7,16 @@
 }
 .wrapper h1 {
     font-size: 60px;
+    color: #44701B;
 }
 h3 {
     font-size: 30px;
+    /* color: #44701B; */
+}
+input {
+    margin: 0.5%;
+}
+.regButton {
+    text-decoration: none;
+    color: black;
 }
